@@ -3,7 +3,7 @@ Web-Bench is a simple web-server benchmark tool to test your server's speed in h
 
 # Clone, and build on your system
 1. ```git clone https://github.com/ahmad-su/web-bench.git```
-2. ```cd /web-bench```
+2. ```cd web-bench/```
 3. ```cargo build --release```
 4. ```cd target/release```
 5. run ```.web-bench [addr:port] [method] [path] [worker] [test_counts]```
