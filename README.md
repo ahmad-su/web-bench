@@ -1,7 +1,7 @@
 # web-bench
 Web-Bench is a simple web-server benchmark tool to test your server's speed in handling requests written in rust using rust's standard library
 
-# Clone, and build in your system
+# Clone, and build on your system
 1. ```git clone https://github.com/ahmad-su/web-bench.git```
 2. ```cd /web-bench```
 3. ```cargo build --release```
