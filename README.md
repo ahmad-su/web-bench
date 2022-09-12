@@ -9,6 +9,6 @@ Web-Bench is a simple web-server benchmark tool to test your server's speed in h
 5. run ```.web-bench [addr:port] [method] [path] [worker] [test_counts]```
 
 ## Example run
-Testing 127.0.0.1:8080 with "GET / HTTP/1.1\r\n\r\n" for 100_000 requests @ 8 workers:
+Testing 127.0.0.1:8080 with request "GET / HTTP/1.1" for 100_000 counts @ 8 workers:
 
 ```./web-bench 127.0.0.1:8080 GET / 8 100000```
