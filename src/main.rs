@@ -1,7 +1,8 @@
 use std::time::SystemTime;
 use web_bench::{
-    cfg::{self, AppEngine, Config},
+    cfg::{self, Config},
     task::task,
+    AppEngine
 };
 
 fn main() {
